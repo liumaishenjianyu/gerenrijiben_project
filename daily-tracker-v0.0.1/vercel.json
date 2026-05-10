@@ -1,4 +1,3 @@
 {
-  "builds": [{ "src": "daily-tracker-v0.0.1/**", "use": "@vercel/static" }],
-  "routes": [{ "src": "/(.*)", "dest": "/daily-tracker-v0.0.1/index.html" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/daily-tracker-v0.0.1/index.html" }]
 }
